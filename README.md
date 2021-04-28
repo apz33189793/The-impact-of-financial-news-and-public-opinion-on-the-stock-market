@@ -1,5 +1,7 @@
 # The-impact-of-financial-news-and-public-opinion-on-the-stock-market
+
 Train Naive Bayes Classifier by financial news and gossip
+
 #主題: 探討財經新聞觀點與散戶輿論與大盤指數之連動關係
 
 詳細說明請參考副檔:Introduction
