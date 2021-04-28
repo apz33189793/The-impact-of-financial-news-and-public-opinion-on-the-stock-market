@@ -6,6 +6,21 @@ Train Naive Bayes Classifier by financial news and gossip
 
 詳細說明請參考副檔:Introduction
 
+檔案介紹：
+
+        main：完整程式之代碼（函Tkinder UI介面）
+
+        crawler：各網站爬蟲代碼
+
+        naivebayes_classify_model：訓練的模型
+
+        dict & TFIDF：自訂辭典+字詞重要程度
+
+        Dataset：爬蟲取得之資料集
+
+        result_by_Tkinder：程式執行後之預覽
+
+
 專案目的: 探討財經新聞論點與散戶看法和台股大盤加權指數之連動關係，並嘗試做出以言論風向預測大盤的預測指標
 
 指標模型的運作方式: 利用財經新聞、專家意見、股民的看法，綜合這三方面的言論做出預測明日大盤加權指數的漲跌模型。
@@ -33,20 +48,6 @@ Train Naive Bayes Classifier by financial news and gossip
  有些個股太過冷門導致討論聲量過小，因此可能無法預測
 模型訓練:
 採用貝式分類學習，透過將標註完情感標籤的資料進行訓練，用以判斷並計算今日的新聞面看漲或看跌比率以及股民輿論看漲與看跌比率。最後訓練出的模型準確率約為85%，意即有85%的機率能夠正確判斷出正負向新聞或輿論。
-
-檔案介紹：
-
-        main：完整程式之代碼（函Tkinder UI介面）
-
-        crawler：各網站爬蟲代碼
-
-        naivebayes_classify_model：訓練的模型
-
-        dict & TFIDF：自訂辭典+字詞重要程度
-
-        Dataset：爬蟲取得之資料集
-
-        result_by_Tkinder：程式執行後之預覽
 
 
 資料集(dataset):
